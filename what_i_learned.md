@@ -22,6 +22,9 @@
 
 - Dictionary Comprehension
   - https://www.datacamp.com/community/tutorials/python-dictionary-comprehension
-  - `dict_variable = {key:value for (key,value) in dictonary.items()} `
-  - `double_dict1 = {k: v*2 for (k, v) in dict1.items()}`
+  - Template: `dict_variable = {key:value for (key,value) in dictonary.items()} `
+  - Example1: `double_dict1 = {k: v*2 for (k, v) in dict1.items()}`
+  - Example2: `dict1_keys = {k*2:v for (k,v) in dict1.items()}`
+  - Example3: `new_dict_comp = {n: n**2 for n in numbers if n%2 == 0}`
+  - 
        
