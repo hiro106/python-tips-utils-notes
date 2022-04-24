@@ -1,7 +1,9 @@
 ## Notes of what I (hiro106) learned regarding Python
 ### ...Things I didn't know, had forgotten, or had known but don't have a good command of.
+
 - `math` is a module. A module is just a collection of variables (a namespace, if you like) defined by someone else. We can see all the names in math using the built-in function dir().
   - We can also call help() on the module itself. This will give us the combined documentation for all the functions and values in the module (as well as a high-level description of the module). 
+
 - ABCMeta Class
   - Motivation to check up: When I executed a command `type(DecisionTreeRegressor)`, the returned output was `abc.ABCMeta`.
   - Official doc: https://docs.python.org/3/library/abc.html#module-abc
@@ -17,3 +19,9 @@
         their MRO (Method Resolution Order) nor will method
         implementations defined by the registering ABC be callable (not
         even via super()). 
+
+- Dictionary Comprehension
+  - https://www.datacamp.com/community/tutorials/python-dictionary-comprehension
+  - `dict_variable = {key:value for (key,value) in dictonary.items()} `
+  - `double_dict1 = {k: v*2 for (k, v) in dict1.items()}`
+       
