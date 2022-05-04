@@ -9,4 +9,6 @@
 - Python String Format Cookbook
   - https://mkaz.blog/code/python-string-format-cookbook/
   - I used this article as a reference to check the meaning of "{:,.0f}" for .format method. 
-  - 
+  
+- A Guide to the Newer Python String Format Techniques
+  - https://realpython.com/python-formatted-output/
